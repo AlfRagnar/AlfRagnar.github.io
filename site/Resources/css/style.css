@@ -209,6 +209,8 @@ header {
   float: right;
   list-style: none;
   margin-top: 55px;
+  height: auto;
+  overflow: visible;
 }
 
 .main-nav li {

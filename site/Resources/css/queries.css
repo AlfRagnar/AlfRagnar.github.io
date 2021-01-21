@@ -3,7 +3,7 @@
   .hero-text-box {
     width: 100%;
     padding: 0 2%;
-    margin-top: 40px;
+    margin-top: 60px;
   }
 
   .row {
@@ -25,42 +25,9 @@
     margin-left: 10%;
   }
 
-  .steps-box {
-    margin-top: 10px;
-  }
-  .steps-box:last-child {
-    margin-top: 10px;
-  }
-  .works-steps {
-    margin-bottom: 40px;
-  }
-  .works-step:last-of-type {
-    margin-bottom: 60px;
-  }
-
-  .app-screen {
-    width: 50%;
-  }
-
   .icon-small {
     width: 17px;
     margin-right: 5px;
-  }
-
-  .city-feature {
-    font-size: 90%;
-  }
-
-  .plan-box {
-    width: 100%;
-    margin-left: 0%;
-  }
-
-  .plan-price {
-    font-size: 250%;
-  }
-  .contact-form {
-    width: 80%;
   }
 }
 
@@ -73,9 +40,9 @@
     padding: 30px 0;
   }
 
-  .row,
   .hero-text-box {
     padding: 0 4%;
+    margin-top: 70px;
   }
   .col {
     width: 100%;
@@ -87,17 +54,18 @@
 
   .main-nav {
     display: none;
-    float: left;
+    float: inline-start;
     margin-top: 30px;
     margin-left: 25px;
+    margin-bottom: 30px;
     background-color: darkslategray;
     border-radius: 10px;
   }
   .mobile-nav-icon {
     margin-top: 20px;
-    display: inline-block;
+    display: block;
+    float: inline-start;
     position: absolute;
-    right: 0;
   }
 
   .main-nav li {
@@ -145,27 +113,6 @@
     margin-left: 0%;
   }
 
-  .app-screen {
-    width: 40%;
-  }
-  .steps-box:first-child {
-    text-align: center;
-  }
-
-  .works-step div {
-    height: 40px;
-    width: 40px;
-    margin-right: 15px;
-    padding: 4px;
-    font-size: 120%;
-  }
-
-  .works-step {
-    margin-bottom: 20px;
-  }
-  .works-step:last-of-type {
-    margin-bottom: 20px;
-  }
   #readMore {
     margin-top: 6px;
   }
@@ -175,8 +122,5 @@
 @media only screen and (max-width: 480px) {
   section {
     padding: 25px 0;
-  }
-  .contact-form {
-    width: 100%;
   }
 }

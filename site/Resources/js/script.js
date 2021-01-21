@@ -96,6 +96,14 @@ $(document).ready(function () {
       offset: '50%',
     }
   );
+  $('.js--wp-6').waypoint(
+    function (direction) {
+      $('.js--wp-6').addClass('animated pulse');
+    },
+    {
+      offset: '50%',
+    }
+  );
 
   /* Mobile navigation */
   $('.js--nav-icon').click(function () {

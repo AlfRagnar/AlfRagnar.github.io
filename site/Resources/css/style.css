@@ -362,122 +362,6 @@ header {
   margin-right: 10px;
 }
 
-/* ----------------------------------------------- */
-/* CITIES */
-/* ----------------------------------------------- */
-
-.box img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 15px;
-}
-
-.city-feature {
-  margin-bottom: 5px;
-}
-
-/* ----------------------------------------------- */
-/* TESTIMONIALS */
-/* ----------------------------------------------- */
-
-.section-testimonials {
-  background-image: -webkit-linear-gradient(
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 0.8)
-    ),
-    url(img/back-customers-min.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(img/back-customers-min.jpg);
-  background-size: cover;
-  color: #fff;
-  background-attachment: fixed;
-}
-
-blockquote {
-  padding: 2%;
-  font-style: italic;
-  line-height: 145%;
-  position: relative;
-  margin-top: 40px;
-}
-
-blockquote:before {
-  content: '\201C';
-  font-size: 500%;
-  display: block;
-  position: absolute;
-  top: -5px;
-  left: -5px;
-}
-
-cite {
-  font-size: 90%;
-  margin-top: 25px;
-  display: block;
-}
-
-cite img {
-  height: 45px;
-  border-radius: 50%;
-  margin-right: 10px;
-  vertical-align: middle;
-}
-
-/* ----------------------------------------------- */
-/* SIGN UP */
-/* ----------------------------------------------- */
-
-.section-plans {
-  background-color: #f4f4f4;
-}
-
-.plan-box {
-  background-color: #fff;
-  border-radius: 5px;
-  width: 90%;
-  margin-left: 5%;
-  box-shadow: 0 2px 2px #efefef;
-}
-
-.plan-box div {
-  padding: 15px;
-  border-bottom: 1px solid #e8e8e8;
-}
-
-.plan-box div:first-child {
-  background-color: #fcfcfc;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
-
-.plan-box div:last-child {
-  text-align: center;
-  border: 0;
-}
-
-.plan-price {
-  font-size: 300%;
-  margin-bottom: 10px;
-  font-weight: 100;
-  color: #e67e22;
-}
-
-.plan-price span {
-  font-size: 30%;
-  font-weight: 300;
-}
-
-.plan-price-meal {
-  font-size: 80%;
-}
-
-.plan-box ul {
-  list-style: none;
-}
-
-.plan-box ul li {
-  padding: 5px 0;
-}
 *:focus {
   outline: none;
 }
@@ -537,8 +421,7 @@ footer {
 
 .ion-social-facebook,
 .ion-social-twitter,
-.ion-social-googleplus,
-.ion-social-instagram {
+.ion-social-linkedin {
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
 }
@@ -568,7 +451,8 @@ footer p {
 .js--wp-1,
 .js--wp-2,
 .js--wp-3,
-.js--wp-5 {
+.js--wp-5,
+.js--wp-6 {
   opacity: 0;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -582,6 +466,7 @@ footer p {
 .js--wp-1.animated,
 .js--wp-2.animated,
 .js--wp-3.animated,
-.js--wp-5.animated {
+.js--wp-5.animated,
+.js--wp-6.animated {
   opacity: 1;
 }

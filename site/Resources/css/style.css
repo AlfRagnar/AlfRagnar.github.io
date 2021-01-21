@@ -136,8 +136,7 @@ a:active {
 
 /* ----- BUTTONS ----- */
 .btn:link,
-.btn:visited,
-input[type='submit'] {
+.btn:visited {
   display: inline-block;
   padding: 10px 30px;
   font-weight: 300;
@@ -148,8 +147,7 @@ input[type='submit'] {
 }
 
 .btn-full:link,
-.btn-full:visited,
-input[type='submit'] {
+.btn-full:visited {
   background-color: #e67e22;
   border: 1px solid #e67e22;
   color: #fff;
@@ -163,9 +161,7 @@ input[type='submit'] {
 }
 
 .btn:hover,
-.btn:active,
-input[type='submit']:hover,
-input[type='submit']:active {
+.btn:active {
   background-color: #cf6d17;
 }
 
@@ -206,21 +202,6 @@ header {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-}
-
-.logo {
-  height: 100px;
-  width: auto;
-  float: left;
-  margin-top: 20px;
-}
-
-.logo-black {
-  display: none;
-  height: 50px;
-  width: auto;
-  float: left;
-  margin: 5px 0;
 }
 
 /* Main navi */
@@ -286,13 +267,6 @@ header {
   color: #555;
 }
 
-.sticky .logo {
-  display: none;
-}
-.sticky .logo-black {
-  display: block;
-}
-
 /* ----------------------------------------------- */
 /* FEATURES */
 /* ----------------------------------------------- */
@@ -302,70 +276,9 @@ header {
   justify-content: center;
 }
 
-/* ----------------------------------------------- */
-/* HOW IT WORKS SECTION */
-/* ----------------------------------------------- */
-
-.section-steps {
-  background-color: #f4f4f4;
-}
-
-.steps-box {
-  margin-top: 30px;
-}
-
-.steps-box:first-child {
-  text-align: right;
-  padding-right: 3%;
-}
-
-.steps-box:last-child {
-  text-align: left;
-  padding-left: 3%;
-  margin-top: 70px;
-}
-
-.app-screen {
-  width: 40%;
-}
-
-.works-step {
-  margin-bottom: 50px;
-}
-
-.works-step:last-of-type {
-  margin-bottom: 80px;
-}
-
-.works-step div {
-  color: #e67e22;
-  font-size: 150%;
-  height: 54px;
-  width: 54px;
-  border: 2px solid #e67e22;
-  border-radius: 50%;
-  display: block;
-  text-align: center;
-  margin-right: 25px;
-  float: left;
-  padding: 5px;
-}
-
-.btn-app:link,
-.btn-app:visited {
-  border: 0;
-}
-
-.btn-app img {
-  height: 50px;
-  width: auto;
-  margin-right: 10px;
-}
-
 *:focus {
   outline: none;
 }
-/* Contact Form */
 
 /* ----------------------------------------------- */
 /* FOOTER */

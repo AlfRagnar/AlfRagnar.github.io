@@ -102,7 +102,10 @@
 
   .main-nav li {
     display: block;
-    text-shadow: 2px 2px black;
+  }
+  .main-nav li:hover,
+  .main-nav li:active {
+    border: 1px 1px #e67e22;
   }
 
   .main-nav li a:link,

@@ -3,6 +3,7 @@
   .hero-text-box {
     width: 100%;
     padding: 0 2%;
+    margin-top: 40px;
   }
 
   .row {
@@ -80,22 +81,28 @@
     width: 100%;
     margin: 0 0 4% 0;
   }
-
-  .main-nav {
-    display: none;
-  }
-  .mobile-nav-icon {
+  #navigationBar {
     display: inline-block;
   }
 
   .main-nav {
+    display: none;
     float: left;
     margin-top: 30px;
     margin-left: 25px;
+    background-color: darkslategray;
+    border-radius: 10px;
+  }
+  .mobile-nav-icon {
+    margin-top: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
   }
 
   .main-nav li {
     display: block;
+    text-shadow: 2px 2px black;
   }
 
   .main-nav li a:link,
@@ -108,6 +115,7 @@
 
   .sticky .main-nav {
     margin-top: 10px;
+    background-color: #f8f8f8f8;
   }
 
   .sticky .main-nav li a:link,
@@ -115,6 +123,7 @@
     padding: 10px 0;
   }
   .sticky .mobile-nav-icon {
+    position: relative;
     margin-top: 10px;
   }
   .sticky .mobile-nav-icon i {
@@ -153,6 +162,9 @@
   }
   .works-step:last-of-type {
     margin-bottom: 20px;
+  }
+  #readMore {
+    margin-top: 6px;
   }
 }
 

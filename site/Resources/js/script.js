@@ -4,8 +4,10 @@ $(document).ready(function () {
     function (direction) {
       if (direction == 'down') {
         $('nav').addClass('sticky');
+        $('nav').addClass('animated fadeIn');
       } else {
         $('nav').removeClass('sticky');
+        $('nav').removeClass('animated fadeIn');
       }
     },
     { offset: '60px;' }
@@ -22,7 +24,7 @@ $(document).ready(function () {
   $('.js--scroll-to-start').click(function () {
     $('html, body').animate(
       { scrollTop: $('.js--section-features').offset().top },
-      1000
+      500
     );
   });
 
@@ -78,7 +80,14 @@ $(document).ready(function () {
       offset: '50%',
     }
   );
-
+  $('.js--wp-5').waypoint(
+    function (direction) {
+      $('.js--wp-5').addClass('animated fadeIn');
+    },
+    {
+      offset: '50%',
+    }
+  );
   $('.js--wp-4').waypoint(
     function (direction) {
       $('.js--wp-4').addClass('animated pulse');

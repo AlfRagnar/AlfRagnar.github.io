@@ -1,10 +1,6 @@
 /*
 Orange color: #e67e22
 
-*/
-
-/* ----------------------------------------------- */
-/* BASIC SETUP */
 /* ----------------------------------------------- */
 
 * {
@@ -34,10 +30,6 @@ body {
   height: 0;
   visibility: hidden;
 }
-
-/* ----------------------------------------------- */
-/* REUSABLE COMPONENTS */
-/* ----------------------------------------------- */
 
 .row {
   max-width: 1140px;
@@ -119,8 +111,6 @@ h2:after {
   color: #e67e22;
   font-size: 120%;
   margin-right: 10px;
-
-  /*secrets to align text and icons*/
   line-height: 120%;
   vertical-align: middle;
   margin-top: -5px;
@@ -313,50 +303,6 @@ header {
 }
 
 /* ----------------------------------------------- */
-/* MEALS */
-/* ----------------------------------------------- */
-
-.section-meals {
-  padding: 0;
-}
-
-.meals-showcase {
-  list-style: none;
-  width: 100%;
-}
-
-.meals-showcase li {
-  display: block;
-  float: left;
-  width: 25%;
-}
-
-.meal-photo {
-  width: 100%;
-  margin: 0;
-  overflow: hidden;
-  background-color: #000;
-}
-
-.meal-photo img {
-  opacity: 0.7;
-  width: 100%;
-  height: auto;
-  -webkit-transform: scale(1.15);
-  -ms-transform: scale(1.15);
-  transform: scale(1.15);
-  -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
-  transition: transform 0.5s, opacity 0.5s;
-}
-
-.meal-photo img:hover {
-  opacity: 1;
-  -webkit-transform: scale(1.03);
-  -ms-transform: scale(1.03);
-  transform: scale(1.03);
-}
-
-/* ----------------------------------------------- */
 /* HOW IT WORKS SECTION */
 /* ----------------------------------------------- */
 
@@ -532,37 +478,10 @@ cite img {
 .plan-box ul li {
   padding: 5px 0;
 }
-
-/* ----------------------------------------------- */
-/* FORM */
-/* ----------------------------------------------- */
-
-.contact-form {
-  width: 60%;
-  margin: 0 auto;
-}
-
-input[type='text'],
-input[type='email'],
-select,
-textarea {
-  width: 100%;
-  padding: 7px;
-  border-radius: 3px;
-  border: 1px solid #ccc;
-}
-
-textarea {
-  height: 100px;
-}
-
-input[type='checkbox'] {
-  margin: 10px 5px 10px 0;
-}
-
 *:focus {
   outline: none;
 }
+/* Contact Form */
 
 /* ----------------------------------------------- */
 /* FOOTER */
@@ -632,11 +551,7 @@ footer {
   color: #00aced;
 }
 
-.ion-social-googleplus:hover {
-  color: #dd4b39;
-}
-
-.ion-social-instagram:hover {
+.ion-social-linkedin:hover {
   color: #517fa4;
 }
 
@@ -652,7 +567,8 @@ footer p {
 
 .js--wp-1,
 .js--wp-2,
-.js--wp-3 {
+.js--wp-3,
+.js--wp-5 {
   opacity: 0;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -665,6 +581,7 @@ footer p {
 
 .js--wp-1.animated,
 .js--wp-2.animated,
-.js--wp-3.animated {
+.js--wp-3.animated,
+.js--wp-5.animated {
   opacity: 1;
 }

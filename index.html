@@ -2,6 +2,15 @@
 <html lang="no">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TTET7Y4X09"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-TTET7Y4X09');
+  </script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description"
@@ -37,47 +46,59 @@
 </head>
 
 <body>
+  <div id="Home" />
   <header>
     <nav>
-      <div class="row">
+      <div id="navigationBar" class="row">
         <ul class="main-nav js--main-nav">
-          <li><a href="#">Hjem</a></li>
+          <li><a href="#Home">Hjem</a></li>
           <li><a href="#features">Litt Om Meg</a></li>
-          <li><a href="#">Erfaring</a></li>
+          <li><a href="#experience">Erfaring</a></li>
           <li><a href="#">Prosjekter</a></li>
           <li><a href="#">Arbeid Erfaring</a></li>
           <li><a href="#">Utdanning</a></li>
-          <li><a href="#">Kontakt Meg</a></li>
+          <li><a href="#contactMe">Kontakt Meg</a></li>
         </ul>
         <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
       </div>
     </nav>
     <div class="hero-text-box">
       <h1>Ha det bra 2020<br />Velkommen 2021</h1>
-      <a class="btn btn-full js--scroll-to-plans" href="#">Send meg en Epost</a>
-      <a class="btn btn-ghost js--scroll-to-start" href="#features">Les mer om meg</a>
+      <a id="contactMe" class="btn btn-full js--scroll-to-plans" href="#">Send meg en Epost</a>
+      <a id="readMore" class="btn btn-ghost js--scroll-to-start" href="#features">Les mer om meg</a>
     </div>
   </header>
-  <section class="section-features js--section-features" id="features">
+  <section class="border section-features js--section-features" id="features">
     <div class="row">
       <h2>
         Jeg er på utkikk etter Arbeid.
       </h2>
       <p class="long-copy">
-        Hallo, Jeg heter Alf Ragnar Masternes, jeg liker å jobbe med utvikling og programmering. Jeg har holdt på med
-        datamaskin lenge og har i de siste årene begynt å fokusere mer på programmering og utvikling av moderne
-        programmer i stedet for bare å sitte å lese om det.
+        Hei, jeg heter Alf Ragnar Masternes, jeg er 25 år gammel mann som har holdt på med datamaskin siden jeg var
+        rundt 11 år gammel. Jeg satt sammen min første datamaskin som 12 år gammel og startet min første private server
+        når jeg var 13 år gammel. Jeg har deltatt på diverse hobbyprosjekt gjennom tidene, som blant annet satt sammen
+        min egen Private Server for å kjøre World of Warcraft samt også brukt mye tid på <a href="https://hackthebox.eu"
+          target="_blank">HackTheBox</a> og <a href="https://tryhackme.com" target="_blank">TryHackMe.</a>
+        Dessverre skjedde Covid-19 og jeg ble permittert fra jobben jeg hadde som Bartender så jeg satt meg ned på
+        datamaskinen igjen og begynte å leste og lære. Siden har jeg funnet ut at jeg har veldig lyst til å holde på med
+        programmering og programutvikling og kanskje i framtiden enten spesialisere meg innenfor backend eller
+        sikkerhet. Enda ikke helt sikker på hva jeg foretrekker å jobbe med av de 2 mulighetene.
       </p>
     </div>
+  </section>
+  <section>
     <div class="row js--wp-1">
+      <h2>
+        Noe av det jeg har jobbet med
+      </h2>
       <div class="col span-1-of-4 box">
         <i class="fas fa-laptop-code icon-big"></i>
         <h3>ASP.NET 5.0 og .Net MVC Core 3.1</h3>
         <p>
-          Jeg har erfaring med å lage web applikasjoner med .Net Core og C#, hvor jeg har blandt annet laget alt fra
-          authentisering, sms verifisering, bruker registering gjennom egenlaget bruker registrerings skjema eller
-          gjennom google/facebook samt brukt diverse grunnleggende produksjonsmetoder for å gjøre at koden er skalerbar,
-          som blant annet å følge SOLID-kode prinsippet.
+          Jeg har laget web applikasjoner med .Net Core og C#, hvor jeg har blandt annet laget alt fra
+          authentisering, sms verifisering, bruker registering gjennom egenlaget brukerregistrerings skjema samt brukt
+          diverse grunnleggende produksjons metoder for å gjøre at koden er skalerbar, som blant annet å følge
+          SOLID-kode prinsippet for at koen skal være ryddig og skalerbar.
         </p>
       </div>
       <div class="col span-1-of-4 box">
@@ -85,25 +106,109 @@
         <h3>Javascript</h3>
         <p>
           Jeg har jobbet hovedsakelig med React.js og react-native deriblant med hovedfocus på å bygge mobil
-          applikasjoner med bruker registrering og autentisering.
+          applikasjoner med brukerregistrering og autentisering. Bruker Registreringen har hovedsakelig da vært gjort
+          gjennom en selvlaget REST-api som kommuniserer med en sky-basert MangoDB eller jeg har gjort det gjennom bruk
+          av firebase og firebase-modulene som tilbys av Google.
         </p>
       </div>
       <div class="col span-1-of-4 box">
         <i class="ion-social-html5-outline icon-big"></i>
         <h3>HTML / CSS</h3>
         <p>
-          Min erfaring med HTML og CSS
+          Jeg har også erfaring med å jobbe med HTML og CSS, hovedsakelig på å lage enkle nettsider med ikke så mye
+          innhold. Mesteparten av min web utvikling har jeg gjort med .NET, men jeg skyr ikke unna når det komme til å
+          utvikle nettsider. Jeg synes det er artig så lenge jeg får noe å sette meg inn i.
         </p>
       </div>
       <div class="col span-1-of-4 box">
         <i class="ion-social-foursquare-outline icon-big"></i>
         <h3>SQL og Databaser</h3>
         <p>
-          Min erfaring med SQL og databaser
+          Jeg har jobbet med en del forskjellige databaser gjennom tiden. Det started med MySQL i 2012, men jeg gikk
+          ikke så dypt inn i det da så jeg ble aldri noe super dyktig akkurat på det i den tiden. Nå har jeg brukt MSSQL
+          ilag med .NET for å bygge komplekse relasjoner mellom forskjellige tables, gjerne linke objekter ilag som er i
+          bruk av web-applikasjoner for at det skal være mulig å gjøre diverse oppgaver på nettsiden. Ellers så har jeg
+          jobbet med sky-baserte MongoDB hvor jeg har koblet meg til den ved hjelp av en hjemmelaget REST-api.
+          Hovedsakelig bare brukt denne til enkle opperasjoner som bruker registrering og autentisering. Jeg har også
+          jobbet litt med Firebase, noe jeg synes har vært veldig enkelt, hovedsakelig på grunn av at det lett ligger
+          moduler og informasjon tilgjengelig på hvordan man kobler seg til og utfører diverse operasjoner ved hjelp av
+          Firebase.
         </p>
       </div>
     </div>
   </section>
+  <section id="experience" class="section-features js--wp-6 border">
+    <div class="row">
+      <h2>
+        Erfaring
+      </h2>
+      <p class="long-copy">
+        Hallo, Jeg heter Alf Ragnar Masternes, jeg liker å jobbe med utvikling og programmering. Jeg har holdt på med
+        datamaskin lenge og har i de siste årene begynt å fokusere mer på programmering og utvikling av moderne
+        programmer i stedet for bare å sitte å lese om det.
+      </p>
+    </div>
+  </section>
+
+  <section id="contactMe" class="section-features js--wp-5 border">
+    <div class="row">
+      <h2>Kontakt meg med tilbud eller anbefalinger</h2>
+      <div class="row span-3-of-4">
+        <h3>
+          <a href="mailto:alfi427@gmail.com">Kontakt meg på Epost: Alfi427@gmail.com</a>
+        </h3>
+        <h3>
+          Kontakt meg på sosiale medier
+        </h3>
+        <ul class="social-links">
+          <li>
+            <a href="https://www.facebook.com/alfragnar.wirkolamasternes/" target="_blank"><i
+                class="ion-social-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/AlfMasternes" target="_blank"><i class="ion-social-twitter"></i></a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/alf-ragnar-masternes-9008b1143" target="_blank"><i
+                class="ion-social-linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <footer class="border">
+    <div class="row">
+      <div class="col span-4-of-6">
+        <ul class="footer-nav">
+          <li><a href="#Home">Hjem</a></li>
+          <li><a href="#features">Litt Om Meg</a></li>
+          <li><a href="#experience">Erfaring</a></li>
+          <li><a href="#">Prosjekter</a></li>
+          <li><a href="#">Arbeid Erfaring</a></li>
+          <li><a href="#">Utdanning</a></li>
+          <li><a href="#contactMe">Kontakt Meg</a></li>
+        </ul>
+      </div>
+      <div class="col span-2-of-6">
+        <ul class="social-links">
+          <li>
+            <a href="https://www.facebook.com/alfragnar.wirkolamasternes/" target="_blank"><i
+                class="ion-social-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/AlfMasternes" target="_blank"><i class="ion-social-twitter"></i></a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/alf-ragnar-masternes-9008b1143" target="_blank"><i
+                class="ion-social-linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <p>Copyright &copy; 2021 by Alf Ragnar Wirkola Masternes. All rights reserved.</p>
+    </div>
+  </footer>
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

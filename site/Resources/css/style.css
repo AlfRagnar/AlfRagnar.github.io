@@ -281,7 +281,25 @@ header {
 *:focus {
   outline: none;
 }
-
+/* experience */
+.experience,
+.projects {
+  background-color: #efefefd2;
+}
+.contactMe,
+footer {
+  background-image: -webkit-linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(/site/Resources/img/background-blackWood.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/site/Resources/img/background-blackWood.jpg);
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  background-attachment: fixed;
+}
 /* ----------------------------------------------- */
 /* FOOTER */
 /* ----------------------------------------------- */

@@ -19,6 +19,10 @@
   section {
     padding: 60px 0;
   }
+  .main-nav {
+    float: inline-start;
+    padding: 0;
+  }
 
   .long-copy {
     width: 80%;
@@ -42,7 +46,10 @@
 
   .hero-text-box {
     padding: 0 4%;
-    margin-top: 70px;
+    margin-top: 9em;
+  }
+  .contactmeButton {
+    margin-bottom: 10px;
   }
   .col {
     width: 100%;
@@ -56,16 +63,16 @@
     display: none;
     float: inline-start;
     margin-top: 30px;
-    margin-left: 25px;
-    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
     background-color: darkslategray;
     border-radius: 10px;
+    padding-bottom: 0;
   }
   .mobile-nav-icon {
-    margin-top: 20px;
     display: block;
-    float: inline-start;
-    position: absolute;
+    float: right;
+    position: relative;
   }
 
   .main-nav li {

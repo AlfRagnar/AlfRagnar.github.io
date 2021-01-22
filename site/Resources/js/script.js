@@ -5,9 +5,11 @@ $(document).ready(function () {
       if (direction == 'down') {
         $('nav').addClass('sticky');
         $('nav').addClass('animated fadeIn');
+        $('navbar').addClass('mobileNavBar');
       } else {
         $('nav').removeClass('sticky');
         $('nav').removeClass('animated fadeIn');
+        $('navbar').removeClass('mobileNavBar');
       }
     },
     { offset: '60px;' }

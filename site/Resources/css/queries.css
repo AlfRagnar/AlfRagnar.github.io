@@ -43,47 +43,38 @@
   section {
     padding: 30px 0;
   }
-
-  .hero-text-box {
-    padding: 0 4%;
-    margin-top: 9em;
-  }
   .contactmeButton {
     margin-bottom: 10px;
+  }
+  .row,
+  .hero-text-box {
+    padding: 0 4%;
   }
   .col {
     width: 100%;
     margin: 0 0 4% 0;
   }
-  #navigationBar {
-    display: block;
-    width: fit-content;
-    position: absolute;
-    margin-left: 40px;
+
+  .hero-text-box {
+    margin-top: 10em;
   }
 
   .main-nav {
     display: none;
-    margin-bottom: 0px;
-    background-color: darkslategray;
-    border-radius: 10px;
-    padding: 0%;
-    margin-top: 10px;
-    margin-left: 30px;
   }
   .mobile-nav-icon {
     display: block;
-    position: absolute;
     float: left;
-    margin-left: 10px;
+  }
+
+  .main-nav {
+    float: left;
+    margin-top: 30px;
+    margin-left: 25px;
   }
 
   .main-nav li {
     display: block;
-  }
-  .main-nav li:hover,
-  .main-nav li:active {
-    border: 1px 1px #e67e22;
   }
 
   .main-nav li a:link,
@@ -96,7 +87,6 @@
 
   .sticky .main-nav {
     margin-top: 10px;
-    background-color: #f8f8f8f8;
   }
 
   .sticky .main-nav li a:link,
@@ -104,7 +94,6 @@
     padding: 10px 0;
   }
   .sticky .mobile-nav-icon {
-    position: relative;
     margin-top: 10px;
   }
   .sticky .mobile-nav-icon i {

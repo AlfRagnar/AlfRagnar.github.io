@@ -70,7 +70,7 @@
     padding-bottom: 0;
   }
   .mobile-nav-icon {
-    display: block;
+    display: inline-block;
     float: right;
     position: relative;
   }

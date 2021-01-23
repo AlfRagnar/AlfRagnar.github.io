@@ -61,16 +61,14 @@
 
   .main-nav {
     display: none;
+    float: left;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
   .mobile-nav-icon {
     display: block;
     float: left;
-  }
-
-  .main-nav {
-    float: left;
-    margin-top: 30px;
-    margin-left: 25px;
   }
 
   .main-nav li {

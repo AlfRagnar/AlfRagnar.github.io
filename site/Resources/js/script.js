@@ -1,6 +1,6 @@
-/* For the sticky navigation */
 $(document).ready(function () {
-  $('.js--section-features').waypoint(
+  /* For the sticky navigation */
+  $('.js--section-stickyTrigger').waypoint(
     function (direction) {
       if (direction == 'down') {
         $('nav').addClass('sticky');
@@ -12,23 +12,8 @@ $(document).ready(function () {
         $('navbar').removeClass('mobileNavBar');
       }
     },
-    { offset: '60px;' }
+    { offset: '120px;' }
   );
-
-  /* Scroll on buttons */
-  $('.js--scroll-to-plans').click(function () {
-    $('html, body').animate(
-      { scrollTop: $('.js--section-plans').offset().top },
-      1
-    );
-  });
-
-  $('.js--scroll-to-start').click(function () {
-    $('html, body').animate(
-      { scrollTop: $('.js--section-features').offset().top },
-      1
-    );
-  });
 
   /* Navigation scroll */
   $(function () {
@@ -47,7 +32,9 @@ $(document).ready(function () {
             {
               scrollTop: target.offset().top,
             },
-            1
+            {
+              duration: 100,
+            }
           );
           return false;
         }
@@ -56,21 +43,22 @@ $(document).ready(function () {
   });
 
   /* Animations on scroll */
+
   $('.js--wp-1').waypoint(
     function (direction) {
       $('.js--wp-1').addClass('animated fadeIn');
     },
     {
-      offset: '50%',
+      offset: '90%',
     }
   );
 
   $('.js--wp-2').waypoint(
     function (direction) {
-      $('.js--wp-2').addClass('animated fadeInUp');
+      $('.js--wp-2').addClass('animated fadeIn');
     },
     {
-      offset: '50%',
+      offset: '90%',
     }
   );
 
@@ -79,7 +67,16 @@ $(document).ready(function () {
       $('.js--wp-3').addClass('animated fadeIn');
     },
     {
-      offset: '50%',
+      offset: '90%',
+    }
+  );
+
+  $('.js--wp-4').waypoint(
+    function (direction) {
+      $('.js--wp-4').addClass('animated fadeIn');
+    },
+    {
+      offset: '90%',
     }
   );
   $('.js--wp-5').waypoint(
@@ -87,23 +84,15 @@ $(document).ready(function () {
       $('.js--wp-5').addClass('animated fadeIn');
     },
     {
-      offset: '50%',
-    }
-  );
-  $('.js--wp-4').waypoint(
-    function (direction) {
-      $('.js--wp-4').addClass('animated pulse');
-    },
-    {
-      offset: '50%',
+      offset: '90%',
     }
   );
   $('.js--wp-6').waypoint(
     function (direction) {
-      $('.js--wp-6').addClass('animated pulse');
+      $('.js--wp-6').addClass('animated fadeIn');
     },
     {
-      offset: '50%',
+      offset: '90%',
     }
   );
 
@@ -114,6 +103,19 @@ $(document).ready(function () {
 
     nav.slideToggle(200);
 
+    if (icon.hasClass('ion-navicon-round')) {
+      icon.addClass('ion-close-round');
+      icon.removeClass('ion-navicon-round');
+    } else {
+      icon.addClass('ion-navicon-round');
+      icon.removeClass('ion-close-round');
+    }
+  });
+  /* Collapse Navbar on click */
+  $('.js--main-nav>li>a').click(() => {
+    var navElements = $('.js--main-nav');
+    var icon = $('.js--nav-icon i');
+    navElements.slideToggle(200);
     if (icon.hasClass('ion-navicon-round')) {
       icon.addClass('ion-close-round');
       icon.removeClass('ion-navicon-round');

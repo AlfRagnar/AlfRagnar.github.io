@@ -9,6 +9,13 @@ Orange color: #e67e22
   box-sizing: border-box;
 }
 
+/* Anchor offset */
+a.anchor {
+  display: block;
+  position: relative;
+  top: -4em;
+  visibility: hidden;
+}
 html,
 body {
   background-color: #fff;
@@ -190,7 +197,7 @@ header {
     url(/site/Resources/img/background-blackWood.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 108vh;
   background-attachment: fixed;
 }
 
@@ -282,7 +289,7 @@ header {
   outline: none;
 }
 /* experience */
-.experience,
+.exampleSkills,
 .projects {
   background-color: #efefefd2;
 }
@@ -384,14 +391,10 @@ footer p {
 .js--wp-1,
 .js--wp-2,
 .js--wp-3,
+.js--wp-4,
 .js--wp-5,
 .js--wp-6 {
-  opacity: 0;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-}
-
-.js--wp-4 {
+  opacity: 0.2;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
 }

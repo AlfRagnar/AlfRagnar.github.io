@@ -213,7 +213,7 @@ header {
 
 /* Main navi */
 .main-nav {
-  float: right;
+  float: inline-start;
   list-style: none;
   margin-top: 55px;
   height: auto;

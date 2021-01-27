@@ -1,294 +1,312 @@
 <!DOCTYPE html>
 <html lang="no">
 
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TTET7Y4X09"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-TTET7Y4X09"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
 
-    gtag('config', 'G-TTET7Y4X09');
-  </script>
+			gtag('config', 'G-TTET7Y4X09');
+		</script>
 
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description"
-    content="This is a website made by Alf Ragnar that is used for job search and introducing companies to Alf Ragnar" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description"
+			content="This is a website made by Alf Ragnar that is used for job search and introducing companies to Alf Ragnar" />
 
-  <title>Litt om Alf Ragnar</title>
+		<title>Litt om Alf Ragnar</title>
 
+		<!-- Show github repos on website -->
+		<link href="site/Vendors/css/github-widget.css" rel="stylesheet" type="text/css" />
+		<!-- Load Bootstrap 5.0 -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+			integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+		<!-- Load FontAwesome for icons -->
+		<script src="https://kit.fontawesome.com/f74ca289f4.js" crossorigin="anonymous"></script>
+		<!-- Load Favicons, Randomly genenerated by  https://realfavicongenerator.net/ -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/site/Vendors/img/favico/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/site/Vendors/img/favico/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/site/Vendors/img/favico/favicon-16x16.png" />
+		<link rel="manifest" href="/site/Vendors/img/favico/site.webmanifest" />
+		<link rel="mask-icon" href="/site/Vendors/img/favico/safari-pinned-tab.svg" color="#5bbad5" />
+		<link rel="shortcut icon" href="/site/Vendors/img/favico/favicon.ico" />
+		<meta name="msapplication-TileColor" content="#da532c" />
+		<meta name="msapplication-config" content="/site/Vendors/img/favico/browserconfig.xml" />
+		<meta name="theme-color" content="#ffffff" />
+		<!-- Import other useful stylesheets -->
+		<link rel="stylesheet" type="text/css" href="site/Vendors/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="site/Vendors/css/grid.css" />
+		<link rel="stylesheet" type="text/css" href="site/Vendors/css/ionicons.min.css" />
+		<link rel="stylesheet" type="text/css" href="site/Vendors/css/animate.css" />
+		<!-- Load My Own CSS stylesheet -->
+		<link rel="stylesheet" href="/site/Resources/css/style.css" type="text/css" />
+		<link rel="stylesheet" href="/site//Resources/css/queries.css" type="text/css" />
+	</head>
 
-  <!-- Show github repos on website -->
-  <link href="site/Vendors/css/github-widget.css" rel="stylesheet" type="text/css" />
-  <!-- Load Bootstrap 5.0 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
-  <!-- Load FontAwesome for icons -->
-  <script src="https://kit.fontawesome.com/f74ca289f4.js" crossorigin="anonymous"></script>
-  <!-- Load Favicons, Randomly genenerated by  https://realfavicongenerator.net/ -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/site/Vendors/img/favico/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/site/Vendors/img/favico/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/site/Vendors/img/favico/favicon-16x16.png" />
-  <link rel="manifest" href="/site/Vendors/img/favico/site.webmanifest" />
-  <link rel="mask-icon" href="/site/Vendors/img/favico/safari-pinned-tab.svg" color="#5bbad5" />
-  <link rel="shortcut icon" href="/site/Vendors/img/favico/favicon.ico" />
-  <meta name="msapplication-TileColor" content="#da532c" />
-  <meta name="msapplication-config" content="/site/Vendors/img/favico/browserconfig.xml" />
-  <meta name="theme-color" content="#ffffff" />
-  <!-- Import other useful stylesheets -->
-  <link rel="stylesheet" type="text/css" href="site/Vendors/css/normalize.css" />
-  <link rel="stylesheet" type="text/css" href="site/Vendors/css/grid.css" />
-  <link rel="stylesheet" type="text/css" href="site/Vendors/css/ionicons.min.css" />
-  <link rel="stylesheet" type="text/css" href="site/Vendors/css/animate.css" />
-  <!-- Load My Own CSS stylesheet -->
-  <link rel="stylesheet" href="/site/Resources/css/style.css" type="text/css" />
-  <link rel="stylesheet" href="/site//Resources/css/queries.css" type="text/css" />
-</head>
+	<body>
+		<div id="Home" />
+		<header>
+			<nav>
+				<div class="row">
+					<navbar class="mobileNavBar">
+						<a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+						<ul class="main-nav js--main-nav">
+							<li><a href="#Home">Hjem</a></li>
+							<li><a href="#features">Litt Om Meg</a></li>
+							<li><a href="#experience">Erfaring</a></li>
+							<li><a href="#projects">Prosjekter</a></li>
+							<li><a href="#workExperience">Arbeid Erfaring</a></li>
+							<li><a href="#contactMe">Kontakt Meg</a></li>
+						</ul>
+					</navbar>
+				</div>
+			</nav>
 
-<body>
-  <div id="Home" />
-  <header>
-
-
-
-
-    <nav>
-      <div class="row">
-        <navbar class="mobileNavBar">
-          <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
-          <ul class="main-nav js--main-nav ">
-            <li><a href="#Home">Hjem</a></li>
-            <li><a href="#features">Litt Om Meg</a></li>
-            <li><a href="#experience">Erfaring</a></li>
-            <li><a href="#projects">Prosjekter</a></li>
-            <li><a href="#workExperience">Arbeid Erfaring</a></li>
-            <li><a href="#contactMe">Kontakt Meg</a></li>
-          </ul>
-        </navbar>
-      </div>
-    </nav>
-
-    <div class="hero-text-box">
-      <h1 class="row greetingText">Velkommen til min lille Nettside<br />Bli litt bedre kjent med meg</h1>
-      <a class="contactmeButton btn btn-full" href="#contactMe">Send meg en Epost</a>
-      <a class="btn btn-ghost" href="#features">Les mer om meg</a>
-    </div>
-  </header>
-  <a class="anchor" id="features"></a>
-  <section class="section-features js--section-stickyTrigger">
-    <div class="row">
-      <h2>
-        Jeg er på Utkikk etter Jobb.
-      </h2>
-      <p class="long-copy">
-        Hei, jeg heter Alf Ragnar Masternes, jeg er 25 år gammel mann som har holdt på med datamaskin siden jeg var
-        rundt 11 år gammel. Jeg satt sammen min første datamaskin som 12 år gammel og startet min første private server
-        når jeg var 13 år gammel. Jeg har deltatt på diverse hobbyprosjekt gjennom tidene, som blant annet satt sammen
-        min egen Private Server for å kjøre World of Warcraft samt også brukt mye tid på <a href="https://hackthebox.eu"
-          target="_blank">HackTheBox</a> og <a href="https://tryhackme.com" target="_blank">TryHackMe.</a>
-        Dessverre skjedde Covid-19 og jeg ble permittert fra jobben jeg hadde som Bartender så jeg satt meg ned på
-        datamaskinen igjen og begynte å leste og lære. Siden har jeg funnet ut at jeg har veldig lyst til å holde på med
-        programmering og programutvikling og kanskje i framtiden enten spesialisere meg innenfor backend eller
-        sikkerhet. Enda ikke helt sikker på hva jeg foretrekker å jobbe med av de 2 mulighetene.
-        Jeg er ellers interessert i ny teknologi og cryptocurrency, ettersom jeg har fulgt med crypto helt siden 2013 og
-        kjøpte meg til og med et dataspill for 60 000 dogecoin. Det hadde tatt meg rundt ca 1-2 dager å mine og jeg var
-        veldig fornøyd med investeringen min da. I senere tid så har jeg sett at det var kanskje ikke det beste kjøpet
-        med hvem ville vel tro at cryptocurrency skulle bli så populær?
-      </p>
-    </div>
-  </section>
-  <section class="exampleSkills">
-    <div class="row js--wp-1 modal-title">
-      <h2>
-        Noe av det jeg har jobbet med
-      </h2>
-      <div class="col span-1-of-4 box">
-        <i class="ion-social-codepen-outline icon-big"></i>
-        <h3>ASP.NET 5.0 og .Net MVC Core 3.1</h3>
-        <p>
-          Jeg har laget web applikasjoner med .Net Core og C#, hvor jeg har blandt annet laget alt fra
-          authentisering, sms verifisering, bruker registering gjennom egenlaget brukerregistrerings skjema samt brukt
-          diverse grunnleggende produksjons metoder for å gjøre at koden er skalerbar, som blant annet å følge
-          SOLID-kode prinsippet for at koen skal være ryddig og skalerbar.
-        </p>
-      </div>
-      <div class="col span-1-of-4 box">
-        <i class="ion-social-javascript-outline icon-big"></i>
-        <h3>Javascript</h3>
-        <p>
-          Jeg har jobbet hovedsakelig med React.js og react-native deriblant med hovedfocus på å bygge mobil
-          applikasjoner med brukerregistrering og autentisering. Bruker Registreringen har hovedsakelig da vært gjort
-          gjennom en selvlaget REST-api som kommuniserer med en sky-basert MangoDB eller jeg har gjort det gjennom bruk
-          av firebase og firebase-modulene som tilbys av Google.
-        </p>
-      </div>
-      <div class="col span-1-of-4 box">
-        <i class="ion-social-html5-outline icon-big"></i>
-        <h3>HTML / CSS</h3>
-        <p>
-          Jeg har også erfaring med å jobbe med HTML og CSS, hovedsakelig på å lage enkle nettsider med ikke så mye
-          innhold. Mesteparten av min web utvikling har jeg gjort med .NET, men jeg skyr ikke unna når det komme til å
-          utvikle nettsider. Jeg synes det er artig så lenge jeg får noe å sette meg inn i.
-        </p>
-      </div>
-      <div class="col span-1-of-4 box">
-        <i class="ion-ios-analytics-outline icon-big"></i>
-        <h3>SQL og Databaser</h3>
-        <p>
-          Jeg har erfaring fra å jobbe med MSSQL, cloud-based MongoDB og Firebase. Jeg har blant annet laget egen
-          REST-api for å kommunisere med MongoDB, for å utføre CRUD-operasjoner. MSSQL har jeg også brukt til å bygge
-          komplekse relasjoner mellom tables. Firebase har jeg hovedsakelig brukt i mobil applikasjoner fordi at det for
-          det meste er sky-basert og gjør at applikasjonen blir lettere å kjøre.
-        </p>
-      </div>
-    </div>
-  </section>
-  <a class="anchor" id="experience"></a>
-  <section class="section-features js--wp-6 ">
-    <div class="row">
-      <h2>
-        Erfaring
-      </h2>
-      <p class="long-copy">
-        Jeg har jobbet med mye rart gjennom tidene. Alt fra forskjellige Linux distribusjoner til hjemme mekket verktøy
-        for å hente videoer fra youtube for å høre på musikk. Jeg har rørt mange forskjellige verktøy også gjennom
-        tidene, som alt fra PHP, LUA, SQL, C#, Javascript og Python men jeg satt ikke alltid like mye tid inn i det
-        ettersom jeg hadde andre mål og meninger som ofte når jeg begynte med å ta det i bruk. Jeg ser for det meste på
-        bruk av programmering språk som et verktøy for å få noe gjort på datamaskinen så som oftes så bryr jeg meg ikke
-        alltid like mye om hvordan språk jeg skriver så lenge det fungerer og det fungerer bra. Jeg har gjerne en
-        tendens til å gå tilbake å besøke kode jeg har skrevet tidligere og redesigne det når jeg kommer på nye
-        løsninger eller måter å få utført jobben på.
-      </p>
-    </div>
-  </section>
-  <a class="anchor" id="projects"></a>
-  <section class="projects">
-    <div class="row">
-      <h2>
-        Prosjekter
-      </h2>
-      <div class="github-widget" data-user="AlfRagnar"></div>
-    </div>
-  </section>
-  <a class="anchor" id="workExperience"></a>
-  <section>
-    <div class="row">
-      <h2>Arbeids Erfaring</h2>
-      <div class="col span-1-of-4 box">
-        <h3>Bartender</h3>
-        <p>
-          Jeg har jobbet 4 år som bartender, 5 år vis vi regner med dette året her under covid-19 hvor jeg har vært
-          mesteparten av året permittert fra baren nøyaktig på grunn av smittevern og smitterisiko. Totalt har jeg
-          jobbet i bar siden jeg var 18 år gammel, hvor jeg startet som ryggehjelp og inngangs kontrollør og senere
-          jobbet meg opp til å bli ledende bartender for det Teamet jeg jobbet med i helgene.
-        </p>
-      </div>
-      <div class="col span-1-of-4 box">
-        <h3>Hjelpearbeider</h3>
-        <p>
-          Jeg har også hatt en liten 2 måneders periode hvor jeg jobbet som Hjelpearbeider på et annlegg is Senja, som
-          ligger i Troms fylke. Hvor min arbeidsoppgave gikk ut på å sette sammen gabioner som skulle bygges for å lage
-          snø skred sikring for å beskytte bygda i nærheten. Det var for det meste fysisk aktivitet og skjedde på
-          vinteren så det var mye tungt arbeid, men jeg er som passe sta så det var ikke så altfor vanskelig for meg å
-          komme meg gjennom det til slutt.
-        </p>
-      </div>
-      <div class="col span-1-of-4 box">
-        <h3>Sommervikar Hurtigruten</h3>
-        <p>
-          Jeg tok meg en sommer hvor jeg jobbet som sommervikar på Hurtigruten i Hotell og restaurant virksomheten, hvor
-          mesteparten av de oppdragene jeg fikk gikk ut på å hjelpe til på forskjellige båter under sommer perioden som
-          hadde behov for hjelp. Jeg var for det meste på skiped Finnmarken, men jeg var også innom Lofoten, en av de
-          eldste skipene til Hurtigruten. Der jobbet jeg som Byssegutt (Oppvask og kjøkkenhjelp) og hadde mange tunge
-          dager ettersom den båten ikke er akkurat moderne.
-        </p>
-      </div>
-      <div class="col span-1-of-4 box">
-        <h3>Vaktmester</h3>
-        <p>
-          Da jeg var 16 år gammel fikk jeg meg en jobb som assisterende vaktmester på Rica Hotels hvor jeg hadde
-          som hovedoppgave å vedlikeholde hotellet, hvor jeg jobbet hovedsakelig i helgene ettersom jeg
-          enda gikk på skole. Arbeidsoppgavene kunne gå alt fra å skifte lyspærer til å skifte lås på dører
-          eller male vegger osv rundt om kring på hotellet. Alt det normale som må til for at et hotell skal ivareta
-          sjarmen sin.
-        </p>
-      </div>
-    </div>
-
-  </section>
-  <a class="anchor" id="contactMe"></a>
-  <section class="section-features contactMe">
-    <div class="row text-white js--wp-5">
-      <h2>Kontakt meg med tilbud eller anbefalinger</h2>
-      <div class="row span-3-of-4">
-        <h3>
-          <p>
-            Kontakt meg på Epost:
-            <a href="mailto:alfi427@gmail.com"> Alfi427@gmail.com</a>
-          </p>
-        </h3>
-        <h3>
-          Kontakt meg på sosiale medier
-        </h3>
-        <ul class="social-links">
-          <li>
-            <a href="https://www.facebook.com/alfragnar.wirkolamasternes/" target="_blank"><i
-                class="ion-social-facebook"></i></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/AlfMasternes" target="_blank"><i class="ion-social-twitter"></i></a>
-          </li>
-          <li>
-            <a href="https://linkedin.com/in/alf-ragnar-masternes-9008b1143" target="_blank"><i
-                class="ion-social-linkedin"></i></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <footer>
-    <div class="row">
-      <div class="col span-6-of-7">
-        <ul class="footer-nav">
-          <li><a href="#Home">Hjem</a></li>
-          <li><a href="#features">Litt Om Meg</a></li>
-          <li><a href="#experience">Erfaring</a></li>
-          <li><a href="#projects">Prosjekter</a></li>
-          <li><a href="#workExperience">Arbeid Erfaring</a></li>
-        </ul>
-      </div>
-      <div class="col span-1-of-6">
-        <ul class="social-links">
-          <li>
-            <a href="https://www.facebook.com/alfragnar.wirkolamasternes/" target="_blank"><i
-                class="ion-social-facebook"></i></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/AlfMasternes" target="_blank"><i class="ion-social-twitter"></i></a>
-          </li>
-          <li>
-            <a href="https://linkedin.com/in/alf-ragnar-masternes-9008b1143" target="_blank"><i
-                class="ion-social-linkedin"></i></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="row">
-      <p> 2021 by Alf Ragnar Wirkola Masternes. Work In Progress. Copy if you want.</p>
-    </div>
-  </footer>
-  <!-- Show github repos -->
-  <script src="site/Vendors/js/github-widget.min.js"></script>
-  <!-- Vendor JS -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-  <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
-  <script src="site/Vendors/js/jquery.waypoints.min.js"></script>
-  <!-- My Own JS -->
-  <script src="site/Resources/js/script.js"></script>
-</body>
+			<div class="hero-text-box">
+				<h1 class="row greetingText">
+					Velkommen til min lille Nettside<br />Bli litt bedre kjent med meg
+				</h1>
+				<a class="contactmeButton btn btn-full" href="#contactMe">Send meg en Epost</a>
+				<a class="btn btn-ghost" href="#features">Les mer om meg</a>
+			</div>
+		</header>
+		<a class="anchor" id="features"></a>
+		<section class="section-features js--section-stickyTrigger">
+			<div class="row">
+				<h2>Jeg er på Utkikk etter Jobb.</h2>
+				<p class="long-copy">
+					Hei, jeg heter Alf Ragnar Masternes, jeg er 25 år gammel mann som har holdt
+					på med datamaskin siden jeg var rundt 11 år gammel. Jeg satt sammen min
+					første datamaskin som 12 år gammel og startet min første private server når
+					jeg var 13 år gammel. Jeg har deltatt på diverse hobbyprosjekt gjennom
+					tidene, som blant annet satt sammen min egen Private Server for å kjøre
+					World of Warcraft samt også brukt mye tid på
+					<a href="https://hackthebox.eu" target="_blank">HackTheBox</a> og
+					<a href="https://tryhackme.com" target="_blank">TryHackMe.</a>
+					Dessverre skjedde Covid-19 og jeg ble permittert fra jobben jeg hadde som
+					Bartender så jeg satt meg ned på datamaskinen igjen og begynte å leste og
+					lære. Siden har jeg funnet ut at jeg har veldig lyst til å holde på med
+					programmering og programutvikling og kanskje i framtiden enten spesialisere
+					meg innenfor backend eller sikkerhet. Enda ikke helt sikker på hva jeg
+					foretrekker å jobbe med av de 2 mulighetene. Jeg er ellers interessert i ny
+					teknologi og cryptocurrency, ettersom jeg har fulgt med crypto helt siden
+					2013 og kjøpte meg til og med et dataspill for 60 000 dogecoin. Det hadde
+					tatt meg rundt ca 1-2 dager å mine og jeg var veldig fornøyd med
+					investeringen min da. I senere tid så har jeg sett at det var kanskje ikke
+					det beste kjøpet med hvem ville vel tro at cryptocurrency skulle bli så
+					populær?
+				</p>
+			</div>
+		</section>
+		<section class="exampleSkills">
+			<div class="row js--wp-1">
+				<h2>Noe av det jeg har jobbet med</h2>
+				<div class="col span-3-of-4">
+					<i class="ion-social-codepen-outline icon-big"></i>
+					<h3>C#, ASP.NET 5.0 OG .NET CORE 3.1</h3>
+					<p>
+						Jeg har laget web applikasjoner med .Net MVC Core og C#, hvor jeg har
+						blandt annet laget alt fra authentisering, sms verifisering, bruker
+						registering gjennom egenlaget brukerregistrerings skjema samt brukt
+						diverse grunnleggende produksjons metoder for å gjøre at koden er
+						skalerbar, som blant annet å følge SOLID-kode prinsippet for at koden skal
+						være ryddig og skalerbar. Jeg har også holdt på med å jobbe med .Net med
+						MVC ( Model, View, Controller) for at det skal bli enklere å holde det
+						ryddig og structurert når jeg holdt på med litt større prosject. Jeg har
+						også brukt litt repositories og interfaces men det er noe jeg trenger å
+						bli bedre på å utnytte.
+					</p>
+				</div>
+				<div class="col span-3-of-4">
+					<i class="ion-social-javascript-outline icon-big"></i>
+					<h3>Javascript</h3>
+					<p>
+						Jeg har jobbet hovedsakelig med React.js og react-native deriblant med
+						hovedfocus på å bygge mobil applikasjoner med brukerregistrering og
+						autentisering. Bruker Registreringen har hovedsakelig da vært gjort
+						gjennom en selvlaget REST-api som kommuniserer med en sky-basert MangoDB
+						eller jeg har gjort det gjennom bruk av firebase og firebase-modulene som
+						tilbys av Google.
+					</p>
+				</div>
+				<div class="col span-3-of-4">
+					<i class="ion-social-html5-outline icon-big"></i>
+					<h3>HTML / CSS</h3>
+					<p>
+						Jeg har også erfaring med å jobbe med HTML og CSS, hovedsakelig på å lage
+						enkle nettsider med ikke så mye innhold. Mesteparten av min web utvikling
+						har jeg gjort med .NET, men jeg skyr ikke unna når det komme til å utvikle
+						nettsider. Jeg synes det er artig så lenge jeg får noe å sette meg inn i.
+					</p>
+				</div>
+				<div class="col span-3-of-4">
+					<i class="ion-ios-analytics-outline icon-big"></i>
+					<h3>SQL og Databaser</h3>
+					<p>
+						Jeg har erfaring fra å jobbe med MSSQL, cloud-based MongoDB og Firebase.
+						Jeg har blant annet laget egen REST-api for å kommunisere med MongoDB, for
+						å utføre CRUD-operasjoner. MSSQL har jeg også brukt til å bygge komplekse
+						relasjoner mellom tables. Firebase har jeg hovedsakelig brukt i mobil
+						applikasjoner fordi at det for det meste er sky-basert og gjør at
+						applikasjonen blir lettere å kjøre.
+					</p>
+				</div>
+			</div>
+		</section>
+		<a class="anchor" id="experience"></a>
+		<section class="section-features js--wp-6">
+			<div class="row">
+				<h2>Erfaring</h2>
+				<p class="long-copy">
+					Jeg har jobbet med mye rart gjennom tidene. Alt fra forskjellige Linux
+					distribusjoner til hjemme mekket verktøy for å hente videoer fra youtube
+					for å høre på musikk. Jeg har rørt mange forskjellige verktøy også gjennom
+					tidene, som alt fra PHP, LUA, SQL, C#, Javascript og Python men jeg satt
+					ikke alltid like mye tid inn i det ettersom jeg hadde andre mål og meninger
+					som ofte når jeg begynte med å ta det i bruk. Jeg ser for det meste på bruk
+					av programmering språk som et verktøy for å få noe gjort på datamaskinen så
+					som oftes så bryr jeg meg ikke alltid like mye om hvordan språk jeg skriver
+					så lenge det fungerer og det fungerer bra. Jeg har gjerne en tendens til å
+					gå tilbake å besøke kode jeg har skrevet tidligere og redesigne det når jeg
+					kommer på nye løsninger eller måter å få utført jobben på.
+				</p>
+			</div>
+		</section>
+		<a class="anchor" id="projects"></a>
+		<section class="projects">
+			<div class="row">
+				<h2>Prosjekter</h2>
+				<div class="github-widget" data-user="AlfRagnar"></div>
+			</div>
+		</section>
+		<a class="anchor" id="workExperience"></a>
+		<section>
+			<div class="row">
+				<h2>Arbeids Erfaring</h2>
+				<div class="col span-3-of-4 box">
+					<h3>Bartender</h3>
+					<p>
+						Jeg har jobbet 4 år som bartender, 5 år vis vi regner med dette året her
+						under covid-19 hvor jeg har vært mesteparten av året permittert fra baren
+						nøyaktig på grunn av smittevern og smitterisiko. Totalt har jeg jobbet i
+						bar siden jeg var 18 år gammel, hvor jeg startet som ryggehjelp og
+						inngangs kontrollør og senere jobbet meg opp til å bli ledende bartender
+						for det Teamet jeg jobbet med i helgene.
+					</p>
+				</div>
+				<div class="col span-3-of-4 box">
+					<h3>Hjelpearbeider</h3>
+					<p>
+						Jeg har også hatt en liten 2 måneders periode hvor jeg jobbet som
+						Hjelpearbeider på et annlegg is Senja, som ligger i Troms fylke. Hvor min
+						arbeidsoppgave gikk ut på å sette sammen gabioner som skulle bygges for å
+						lage snø skred sikring for å beskytte bygda i nærheten. Det var for det
+						meste fysisk aktivitet og skjedde på vinteren så det var mye tungt arbeid,
+						men jeg er som passe sta så det var ikke så altfor vanskelig for meg å
+						komme meg gjennom det til slutt.
+					</p>
+				</div>
+				<div class="col span-3-of-4 box">
+					<h3>Sommervikar Hurtigruten</h3>
+					<p>
+						Jeg tok meg en sommer hvor jeg jobbet som sommervikar på Hurtigruten i
+						Hotell og restaurant virksomheten, hvor mesteparten av de oppdragene jeg
+						fikk gikk ut på å hjelpe til på forskjellige båter under sommer perioden
+						som hadde behov for hjelp. Jeg var for det meste på skiped Finnmarken, men
+						jeg var også innom Lofoten, en av de eldste skipene til Hurtigruten. Der
+						jobbet jeg som Byssegutt (Oppvask og kjøkkenhjelp) og hadde mange tunge
+						dager ettersom den båten ikke er akkurat moderne.
+					</p>
+				</div>
+				<div class="col span-3-of-4 box">
+					<h3>Vaktmester</h3>
+					<p>
+						Da jeg var 16 år gammel fikk jeg meg en jobb som assisterende vaktmester
+						på Rica Hotels hvor jeg hadde som hovedoppgave å vedlikeholde hotellet,
+						hvor jeg jobbet hovedsakelig i helgene ettersom jeg enda gikk på skole.
+						Arbeidsoppgavene kunne gå alt fra å skifte lyspærer til å skifte lås på
+						dører eller male vegger osv rundt om kring på hotellet. Alt det normale
+						som må til for at et hotell skal ivareta sjarmen sin.
+					</p>
+				</div>
+			</div>
+		</section>
+		<a class="anchor" id="contactMe"></a>
+		<section class="section-features contactMe">
+			<div class="row js--wp-5">
+				<h2>Kontakt meg med tilbud eller anbefalinger</h2>
+				<div class="row span-3-of-4">
+					<h3>
+						<p>
+							Kontakt meg på Epost:
+							<a href="mailto:alfi427@gmail.com"> Alfi427@gmail.com</a>
+						</p>
+					</h3>
+					<h3>Kontakt meg på sosiale medier</h3>
+					<ul class="social-links">
+						<li>
+							<a href="https://www.facebook.com/alfragnar.wirkolamasternes/" target="_blank"><i
+									class="ion-social-facebook"></i></a>
+						</li>
+						<li>
+							<a href="https://twitter.com/AlfMasternes" target="_blank"><i class="ion-social-twitter"></i></a>
+						</li>
+						<li>
+							<a href="https://linkedin.com/in/alf-ragnar-masternes-9008b1143" target="_blank"><i
+									class="ion-social-linkedin"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="row">
+				<div class="col span-6-of-7">
+					<ul class="footer-nav">
+						<li><a href="#Home">Hjem</a></li>
+						<li><a href="#features">Litt Om Meg</a></li>
+						<li><a href="#experience">Erfaring</a></li>
+						<li><a href="#projects">Prosjekter</a></li>
+						<li><a href="#workExperience">Arbeid Erfaring</a></li>
+					</ul>
+				</div>
+				<div class="col span-1-of-6">
+					<ul class="social-links">
+						<li>
+							<a href="https://www.facebook.com/alfragnar.wirkolamasternes/" target="_blank"><i
+									class="ion-social-facebook"></i></a>
+						</li>
+						<li>
+							<a href="https://twitter.com/AlfMasternes" target="_blank"><i class="ion-social-twitter"></i></a>
+						</li>
+						<li>
+							<a href="https://linkedin.com/in/alf-ragnar-masternes-9008b1143" target="_blank"><i
+									class="ion-social-linkedin"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					2021 by Alf Ragnar Wirkola Masternes. Work In Progress. Copy if you want.
+				</p>
+			</div>
+		</footer>
+		<!-- Show github repos -->
+		<script src="site/Vendors/js/github-widget.min.js"></script>
+		<!-- Vendor JS -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+		<script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+		<script src="site/Vendors/js/jquery.waypoints.min.js"></script>
+		<!-- My Own JS -->
+		<script src="site/Resources/js/script.js"></script>
+	</body>
 
 </html>

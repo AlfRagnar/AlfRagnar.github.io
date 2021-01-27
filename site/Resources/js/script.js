@@ -31,7 +31,7 @@ $(document).ready(function () {
               scrollTop: target.offset().top,
             },
             {
-              duration: 100,
+              duration: 450,
             }
           )
           return false
